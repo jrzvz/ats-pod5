@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { EditModalComponent } from '../edit-modal/edit-modal.component';
 
 @Component({
   selector: 'mfee-project-card',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, EditModalComponent],
   templateUrl: './card.component.html',
   styleUrl: './card.component.scss'
 })
