@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -8,4 +8,6 @@ import { CommonModule } from '@angular/common';
   templateUrl: './edit-modal.component.html',
   styleUrl: './edit-modal.component.scss'
 })
-export class EditModalComponent {}
+export class EditModalComponent {
+  @Input() modalText: string = '';
+}
