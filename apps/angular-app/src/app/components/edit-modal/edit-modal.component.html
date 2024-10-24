@@ -6,10 +6,10 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body py-0">
-                <p>{{modalText}}</p>
+                <input [(ngModel)]="modalText" type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
             </div>
             <div class="modal-footer flex-column align-items-stretch w-100 gap-2 pb-3 border-top-0">
-                <button type="button" class="btn btn-lg btn-primary">Save changes</button>
+                <button type="button" class="btn btn-lg btn-primary" (click)="updateModalText()">Save changes</button>
                 <button type="button" class="btn btn-lg btn-secondary" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
