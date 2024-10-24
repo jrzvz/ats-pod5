@@ -16,4 +16,8 @@ export class GridComponent {
       text: 'diplay text for card1'
     }
   ];
+
+  delete(i: number) {
+    this.cards.splice(i, 1);
+  }
 }

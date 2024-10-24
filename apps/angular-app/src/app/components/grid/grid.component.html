@@ -1,5 +1,6 @@
 <div *ngFor="let card of cards; index as i">
     <mfee-project-card 
-        [cardText]="card.text" [imageSrc]="card.imageSrc" [index]="i">
+        [cardText]="card.text" [imageSrc]="card.imageSrc" [index]="i"
+        (deleteEmitter)="delete($event)">
     </mfee-project-card>
 </div>
