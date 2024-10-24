@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { EditModalComponent } from '../edit-modal/edit-modal.component';
 
@@ -10,5 +10,13 @@ import { EditModalComponent } from '../edit-modal/edit-modal.component';
   styleUrl: './card.component.scss'
 })
 export class CardComponent {
-  cardText: string = `This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.`;
+  @Input() cardText: string = '';
+  @Input() imageSrc: string = '';
+  @Input() index: number = -1;
+
+  @Output() deleteEmitter = new EventEmitter<number>();
+
+  delete(i: number) {
+    this.deleteEmitter.emit(i);
+  }
 }
