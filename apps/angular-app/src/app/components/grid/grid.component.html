@@ -1,1 +1,5 @@
-<p>grid works!</p>
+<div *ngFor="let card of cards; index as i">
+    <mfee-project-card 
+        [cardText]="card.text" [imageSrc]="card.imageSrc" [index]="i">
+    </mfee-project-card>
+</div>
