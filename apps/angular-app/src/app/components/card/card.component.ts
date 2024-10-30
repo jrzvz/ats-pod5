@@ -16,6 +16,10 @@ export class CardComponent {
 
   @Output() deleteEmitter = new EventEmitter<number>();
 
+  openEditModal(i: number) {
+    document.getElementById('modal' + i).style.display = 'block';
+  }
+
   delete(i: number) {
     this.deleteEmitter.emit(i);
   }

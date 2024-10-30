@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './edit-modal.component.scss'
 })
 export class EditModalComponent {
+  @Input() modalIdx: string;
   @Input() modalText: string;
   @Output() modalTextChange = new EventEmitter<string>();
 
