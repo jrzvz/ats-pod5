@@ -8,4 +8,25 @@ import { CommonModule } from '@angular/common';
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+  headerTitles: string[] = [
+    "All",
+    "Travel",
+    "Lifestyle",
+    "Business",
+    "Work"
+  ];
+  selectedHeader = 'All';
+
+  selectHeaderItem(header: string) {
+    this.selectedHeader = header;
+  }
+
+  activationLogic(header: string): string {
+    if (this.selectedHeader === header) {
+      return 'nav-link active'
+    } else {
+      return 'nav-link'
+    }
+  }
+}
