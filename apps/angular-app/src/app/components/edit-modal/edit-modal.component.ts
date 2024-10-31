@@ -17,4 +17,8 @@ export class EditModalComponent {
   updateModalText(): void {
     this.modalTextChange.emit(this.modalText);
   }
+
+  closeModal(modalIdx: string) {
+    document.getElementById(modalIdx).style.display = 'none';
+  }
 }
