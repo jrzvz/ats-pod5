@@ -1,0 +1,76 @@
+{
+    "all": [
+        {
+            "imageSrc": "source path for card1",
+            "text": "display text for card1"
+        },
+        {
+            "imageSrc": "'source path for card2'",
+            "text": "display text for card2"
+        },
+        {
+            "imageSrc": "source path for card3",
+            "text": "display text for card3"
+        },
+        {
+            "imageSrc": "source path for card4",
+            "text": "display text for card4"
+        },
+        {
+            "imageSrc": "source path for card5",
+            "text": "display text for card5"
+        },
+        {
+            "imageSrc": "source path for card6",
+            "text": "display text for card6"
+        }
+    ],
+    "travel": [
+        {
+            "imageSrc": "source path for card1",
+            "text": "display text for card1"
+        },
+        {
+            "imageSrc": "'source path for card2'",
+            "text": "display text for card2"
+        },
+        {
+            "imageSrc": "source path for card3",
+            "text": "display text for card3"
+        },
+        {
+            "imageSrc": "source path for card4",
+            "text": "display text for card4"
+        }
+    ],
+    "lifestyle": [
+        {
+            "imageSrc": "source path for card1",
+            "text": "display text for card1"
+        },
+        {
+            "imageSrc": "'source path for card2'",
+            "text": "display text for card2"
+        },
+        {
+            "imageSrc": "source path for card3",
+            "text": "display text for card3"
+        }
+    ],
+    "business": [
+        {
+            "imageSrc": "source path for card1",
+            "text": "display text for card1"
+        }
+    ],
+    "work": [
+        {
+            "imageSrc": "source path for card1",
+            "text": "display text for card1"
+        },
+        {
+            "imageSrc": "'source path for card2'",
+            "text": "display text for card2"
+        }
+    ]
+}
