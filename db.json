@@ -1,75 +1,75 @@
 {
     "all": [
         {
-            "imageSrc": "source path for card1",
+            "imageSrc": "assets/image1.jpg",
             "text": "display text for card1"
         },
         {
-            "imageSrc": "'source path for card2'",
+            "imageSrc": "assets/image2.jpg",
             "text": "display text for card2"
         },
         {
-            "imageSrc": "source path for card3",
+            "imageSrc": "assets/image3.jpg",
             "text": "display text for card3"
         },
         {
-            "imageSrc": "source path for card4",
+            "imageSrc": "assets/image4.jpg",
             "text": "display text for card4"
         },
         {
-            "imageSrc": "source path for card5",
+            "imageSrc": "assets/image5.jpg",
             "text": "display text for card5"
         },
         {
-            "imageSrc": "source path for card6",
+            "imageSrc": "assets/image6.jpg",
             "text": "display text for card6"
         }
     ],
     "travel": [
         {
-            "imageSrc": "source path for card1",
+            "imageSrc": "assets/image1.jpg",
             "text": "display text for card1"
         },
         {
-            "imageSrc": "'source path for card2'",
+            "imageSrc": "assets/image2.jpg",
             "text": "display text for card2"
         },
         {
-            "imageSrc": "source path for card3",
+            "imageSrc": "assets/image3.jpg",
             "text": "display text for card3"
         },
         {
-            "imageSrc": "source path for card4",
+            "imageSrc": "assets/image4.jpg",
             "text": "display text for card4"
         }
     ],
     "lifestyle": [
         {
-            "imageSrc": "source path for card1",
+            "imageSrc": "assets/image1.jpg",
             "text": "display text for card1"
         },
         {
-            "imageSrc": "'source path for card2'",
+            "imageSrc": "assets/image2.jpg",
             "text": "display text for card2"
         },
         {
-            "imageSrc": "source path for card3",
+            "imageSrc": "assets/image3.jpg",
             "text": "display text for card3"
         }
     ],
     "business": [
         {
-            "imageSrc": "source path for card1",
+            "imageSrc": "assets/image1.jpg",
             "text": "display text for card1"
         }
     ],
     "work": [
         {
-            "imageSrc": "source path for card1",
+            "imageSrc": "assets/image1.jpg",
             "text": "display text for card1"
         },
         {
-            "imageSrc": "'source path for card2'",
+            "imageSrc": "assets/image2.jpg",
             "text": "display text for card2"
         }
     ]
