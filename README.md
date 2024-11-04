@@ -15,3 +15,7 @@ This will start the react app, open your browser and navigate to [http://localho
 ### `npm run start:api`
 
 This will start the node app, you can run this along with any previous front end app. The API will be running in [http://localhost:3000/](http://localhost:3000/). 
+
+### `npx json-server db.json`
+
+This will start json-server in http://localhost:3000
